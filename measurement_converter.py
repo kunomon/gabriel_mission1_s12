@@ -5,9 +5,9 @@ class MeasurementConverter:
     def centimeters_to_meters(value_cm):
         return value_cm / 100
 
-    def meters_to_centimeters():
-        pass
+    def meters_to_centimeters(value_meters):
+        return value_meters * 100
 
 # Testing Area
-result = MeasurementConverter.centimeters_to_meters(100)
+result = MeasurementConverter.meters_to_centimeters(1)
 print('Result:', result)
