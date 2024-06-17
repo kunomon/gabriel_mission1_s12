@@ -5,9 +5,9 @@ class TemperatureConverter:
     def celsius_to_fahrenheit(celsius_value):
         return celsius_value * (9/5) + 32
 
-    def fahrenheit_to_celsius():
-        pass
+    def fahrenheit_to_celsius(fah_value):
+        return (fah_value - 32) / (9/5)
 
 # Testing Area
-result = TemperatureConverter.celsius_to_fahrenheit(0)
+result = TemperatureConverter.fahrenheit_to_celsius(32)
 print('Result:', result)
