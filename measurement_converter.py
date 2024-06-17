@@ -7,7 +7,3 @@ class MeasurementConverter:
 
     def meters_to_centimeters(value_meters):
         return value_meters * 100
-
-# Testing Area
-result = MeasurementConverter.meters_to_centimeters(1)
-print('Result:', result)
